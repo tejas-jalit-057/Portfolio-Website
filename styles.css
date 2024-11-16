@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+pre{
+    font-family: sans-serif; 
+    margin: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(43, 42, 43);
+}
+
+nav {
+    background-color: #f8c611;
+    padding: 10px 0;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0.3);
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: -500pxs;
+
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.heading{
+    font-size: 4rem;
+    width: 100%;
+    display: grid;
+    padding: 10px;
+    color:  white;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+
+
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 100px;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+p{
+    color:goldenrod;
+    font-weight: bold;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.small{
+    font-size: 30px;
+    color: blanchedalmond;
+}
+.small-2{
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+.myphoto{
+    position: absolute;
+    left: 50%; 
+    transform: translateX(70%); 
+    animation: moveToLeft 0.9s linear forwards;
+}
+@keyframes moveToLeft {
+    0% {
+        left: 50%; /* Start from the mid-left */
+    }
+    100% {
+        left: 70%; /* Move to the far left */
+    }
+}
+
+
+.myphoto2 {
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    animation: moveToLeft 0.9s linear forwards;
+}
+@keyframes moveToLeft {
+    0% {
+        left: 50%; /* Start from the mid-left */
+    }
+    100% {
+        left: 20%; /* Move to the far left */
+    }
+}
+
+
+.text{
+    font-size: 1.4rem;
+    width:90%;
+    color: aliceblue; 
+    margin-top: 100px; 
+    margin-left: 600px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-left: 100px;
+    animation: fadeIn 1s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+@keyframes fadeIn {
+    100% {
+        opacity: 2;
+    }
+}
+
+.absec{;
+    height: 70px;
+    width: 100%;
+    text-align: centre;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
+}
+
+
+
